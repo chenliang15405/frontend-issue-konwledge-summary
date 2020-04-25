@@ -21,13 +21,12 @@
     };
     ```
 
-    
-
-  定义了defaultProps，那么如果没有传递该props的话，就会使用defaultProps进行渲染
-
-  - 定义props的类型(PropTypes)
-
-    ```js
+  
+定义了defaultProps，那么如果没有传递该props的话，就会使用defaultProps进行渲染
+  
+- 定义props的类型(PropTypes)
+  
+  ```js
     import PropTypes from 'prop-types'
      ...
       static propTypes = {
@@ -36,5 +35,5 @@
       }
      ...
     ```
-
-    如果属性不正确，则会报错
+  
+  如果类型不正确或者没有该属性，则会报错
