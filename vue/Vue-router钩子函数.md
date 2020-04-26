@@ -13,7 +13,7 @@
    // 解析守卫：
    beforeResolve((to, from, next)=>{})
    
-   // 后置钩子：
+   // 后置守卫：
    afterEach((to,form)=>{}
              
    // 路由：
@@ -48,5 +48,5 @@
    
 
 
-   
+
    
